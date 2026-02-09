@@ -1,2 +1,87 @@
-<h1>Welcome to my website</h1>
-<p>Games coming soon...</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Patel's Arcade</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace; /* Retro game font */
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #4CAF50; /* Arcade Green */
+        }
+
+        .subtitle {
+            color: #ccc;
+            margin-bottom: 50px;
+        }
+
+        .game-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .game-card {
+            background-color: #333;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.2s;
+        }
+
+        .game-card:hover {
+            transform: scale(1.05); /* Pop effect on hover */
+            background-color: #444;
+        }
+
+        .game-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .play-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .play-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>DEEP'S ARCADE</h1>
+    <p class="subtitle">Select a game to start playing</p>
+
+    <div class="game-container">
+        
+        <div class="game-card">
+            <div class="game-title">🦆 Ducky Race</div>
+            <p>Race your duck to the finish line! Avoid obstacles and be the fastest.</p>
+            
+            <a href="/Ducky-Race/" class="play-btn">PLAY NOW</a>
+        </div>
+
+        </div>
+
+</body>
+</html>
